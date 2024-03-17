@@ -6,6 +6,7 @@
  *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
@@ -13,14 +14,393 @@
   overflow-x: hidden;
  }  
 
- main{
+ .main1{
     padding: 36px 35px;
  }
+
  
  .section1{
     margin-top: 45px;
     width: 100%;
  }
+
+  @media (max-width:368px) {
+
+ 
+      section ul {
+         display: flex;
+         padding: 0;
+         gap: 11px;
+      }
+      
+      section ul li{
+         list-style: none;
+         font-size: 10px;
+      }
+      
+      .section2{
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+      }
+      
+      .section2 h1{
+         line-height: 37.51px;
+         font-size: 37px;
+         font-weight: 700;
+         margin-top: 8px;
+         font-family: 'Slab';
+      }
+      
+      section p{
+       margin-top: 9px;
+       font-size: 10px;
+      } 
+      
+       .sec2div{
+         display: flex;
+         justify-content: end;
+       }
+      
+      .sec2div img{
+         width: 141.68px;
+         height: 175.1px;
+      }
+      
+      .img1{
+         width: 52.19px;
+         height: 30.75px;
+      }
+      
+       .section3 {
+         width: 100%;
+       }
+      
+       .section3 div{
+         background-color: #1E4681;
+         border-radius: 2.33px;
+         width: 225.36px;
+         height: 93.19px;
+         /* margin-top: 39px; */
+         margin: 39px auto;
+       }
+      
+       /* burda yuxardakinda margini deyisdim evvel sola yapisirdi indi her ekranda merkezdedir */
+      
+       .section3 div .p1{
+         font-size: 11px;
+         line-height: 14.3px;
+         font-weight: 400;
+         font-family: 'Slab';
+         color: #FFFFFF;
+         width: 200px;
+         padding: 8px 0 0;
+        margin-left: 13px;
+       }
+      
+       .section3 div .p2{
+         font-size: 10px;
+         line-height: 13px;
+         font-weight: 400;
+         color: #FFFFFF;
+         width: 130px;
+        margin: 0 0 6px 87px;
+         text-align: end;
+       }
+      
+       .siteHider{
+         margin-top: 75px;
+       }  
+      
+       .section4{
+         margin-top: 8,38px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         width: 308.47px;
+         
+       }
+      
+       .section4 div p{
+         font-weight: 400;
+             font-size: 12px;
+             line-height: 18px;
+       }
+      
+       .section4  img{
+         width: 170px;
+         height: 160px;
+         margin-top: 20px;
+      }
+      
+       .section5{
+         width: 100%;
+       }
+      
+      .section5 img{
+         display: none;
+      }
+      
+      .section5 ul{
+         display: flex;
+         gap: 33px;
+         flex-wrap: wrap;
+         margin-top:45px ;
+      }
+      
+      .section5 ul li{
+         min-width: 87px;
+         width: 87px;
+         flex-shrink: 1;
+      }
+      
+      .section5 ul li h3{
+         font-size: 12px;
+         line-height: 15.6px;
+         font-weight: 700;
+      }
+      
+      .section5 ul li p{
+         font-size: 10px;
+         line-height: 15.6px;
+         font-weight: 400;
+         margin-top: 2px;
+      }
+      
+      .format{
+         margin-top: 76px;
+         font-weight: 700;
+         line-height: 26.36px;
+         font-size: 26px;
+         font-family: 'Slab';
+      }
+      
+      .section6{
+         width: 100%;
+         margin-top: 15.66px;
+      }
+      
+      .section6 .text li h3{
+         font-weight: 700;
+         line-height: 15.6px;
+         font-size: 12px;
+         color: #1E4681;
+      }
+      
+      .section6 .text li p{
+         font-size: 10px;
+         font-weight: 400;
+         line-height: 13px;
+         width: 180px;
+      }
+      
+       .section6 ul{
+         flex-wrap: wrap;
+        display: flex;
+         gap: 10px;
+       }
+      
+       .sto{
+         margin-top: 73px;
+         font-weight: 700;
+         font-size: 26px;
+         font-family: 'Slab';
+         line-height: 26.36px;
+       }
+      
+       .kto {
+         margin-top: 9.66px;
+         width: 299px;
+       }
+      
+       .kto li{
+         font-size: 12px;
+         line-height: 18px;
+         font-weight: 400;
+       }
+       
+       .proqram{
+         margin-top: 85px;
+         font-weight: 700;
+         font-size: 26px;
+         line-height: 26.36px;
+         font-family: 'Slab';
+       }
+      
+        .section7{
+         margin-top: 35.66px;
+         width: 100%;
+         display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        }
+      
+       .div{
+         width: 186px;
+         border-radius: 14px;
+         box-shadow: 1px 1px 5px #ccc;
+         height: 152px;
+         margin-bottom: 24px;
+       }
+      
+       .div h3{
+         font-weight: 700;
+         font-size: 14px;
+         line-height: 18.2px;
+         padding: 0 8px ;
+       }
+      
+       .div img{
+         width: 185px;
+         height: 74.56px;
+       }
+      
+       .div p{
+         padding: 0 8px;
+         font-weight: 400;
+         font-size: 12px;
+         line-height: 15px; 
+       }
+      
+       .section8{
+         width: 100%;
+         margin-top: 47px;
+         background-color: #EFEFEF;
+         padding: 35px;
+       }
+      
+       .section8 .kurs{
+         font-size: 26px;
+         font-weight: 700;
+         line-height: 26.36px;
+         font-family: 'Slab';
+         margin-bottom: 31px;
+         margin-left: 35px
+       }
+      
+        .kart{
+         width: 258px;
+         height: 258px;
+         margin-top: 11px;
+         padding: 21px;
+         margin-left: 15px;
+         border-radius: 14px;
+         background-color: white;
+         box-shadow: 2px 2px 5px #ccc;
+        }
+      
+        .face{
+         display: flex;
+         gap: 35px;
+        } 
+      
+        .ekaterina{
+         font-weight: 700;
+         font-size: 14px;
+         line-height: 14.19px;
+         margin-top: 8px;
+        }
+      
+        .kart p:first-child{
+         font-weight: 400;
+         font-size: 10px;
+         line-height: 15px;
+        }
+      
+        .kart img.girl{
+         margin-top: 10px;
+         width: 60px;
+         height: 64px;
+        }
+      
+        .section9{
+         padding: 60px 34px;
+         background-color:#9DC9C8;
+         width: 100%;
+      
+        }
+      
+        .section9 h1{
+         font-size: 26px;
+         font-weight: 700;
+         line-height: 26.36px;
+         font-family: 'Slab';
+         margin-bottom: 31px;
+         /* margin-left: 35px; */
+         width: 195px;
+        }
+      
+        .section9 span{
+         font-size: 12px;
+        }
+      
+        .section9 .rub{
+         font-size: 37px;
+         margin-top: 0;
+        }
+      
+        .dlya{
+         display: flex;
+         gap: 31px;
+         margin-top: 35px;
+        }
+      
+        .dlya div{
+         width: 138px;
+         line-height: 10px;
+         font-size: 10px;
+         font-weight: 400;
+        }
+      
+        .footer{
+         width: 100%;
+         background-color: #000000;
+         padding: 38px ;
+        }
+      
+       .gridend{
+         width: 100%;
+       }
+     
+         .sondiv1 .sonimg{
+            width: 53.6px;
+            height: 32px;
+         }
+       
+          .logo img{
+            width: 16px;
+            height: 16px;
+          }
+       
+          .sondiv2 div img{
+            width: 13px;
+            margin-right: 10px;
+            height: 13px;
+          }
+      
+          .logo {
+            margin-top: 14px;
+          }
+      
+          .sondiv2 {
+            margin-top: 47px;
+            color: white;
+            font-size: 12px;
+          }
+      
+          .theend{
+            margin-top: 49px;
+            color: white;
+            font-size: 10px;
+            line-height: 10.14px;
+          }
+      
+      
+         }
+      
+
+  @media screen and (min-width:368px) and (max-width:991px){
+
  
  section ul {
     display: flex;
@@ -261,7 +641,6 @@
     width: 100%;
     margin-top: 47px;
     background-color: #EFEFEF;
-    height: 423px;
     padding: 35px;
   }
  
@@ -271,15 +650,15 @@
     line-height: 26.36px;
     font-family: 'Slab';
     margin-bottom: 31px;
-    margin-left: 35px
+    margin-left: 0;
   }
  
    .kart{
     width: 308px;
-    height: 248px;
+    height: 258px;
     margin-top: 11px;
     padding: 21px;
-    margin-left: 35px;
+    margin-left: 0px;
     border-radius: 14px;
     background-color: white;
     box-shadow: 2px 2px 5px #ccc;
@@ -287,14 +666,14 @@
  
    .face{
     display: flex;
-   gap: 35px;
+    gap: 35px;
    } 
  
    .ekaterina{
     font-weight: 700;
     font-size: 14px;
     line-height: 14.19px;
-    margin-top: 38px;
+    margin-top: 28px;
    }
  
    .kart p:first-child{
@@ -305,8 +684,8 @@
  
    .kart img.girl{
     margin-top: 20px;
-    width: 80px;
-    height: 84px;
+    width: 60px;
+    height: 64px;
    }
  
    .section9{
@@ -351,11 +730,7 @@
    .footer{
     width: 100%;
     background-color: #000000;
-    height: 226px;
     padding: 38px ;
-    position: static;
-    left: 0;
-    bottom: 0;
    }
  
   .gridend{
@@ -396,7 +771,7 @@
      }
  
  
- 
+    }
  
  
     @media  (min-width:992px) {
@@ -655,7 +1030,6 @@
           width: 100%;
           margin-top: 47px;
           background-color: #EFEFEF;
-          height: 451px;
           padding: 72px;
         }
        
@@ -713,7 +1087,7 @@
           padding: 100px 70px;
           background-color:#9DC9C8;
           width: 100%;
-          height: 451px;
+         
          }
        
          .section9 h1{
@@ -750,12 +1124,10 @@
          .footer{
           width: 100%;
           background-color: #000000;
-          height: 226px;
+       
           padding: 10px ;
           margin: auto;
-          position: static;
-          left: 0;
-          bottom: 0;
+       
          }
        
           .sondiv1 .sonimg{
@@ -977,6 +1349,10 @@
        width: 100%;
        margin-top: 51px;
     }
+
+    .section6 .text{
+      margin-left: 30px;
+    }
     
     .section6 .text li h3{
        font-weight: 700;
@@ -1013,6 +1389,7 @@
      .kto {
        margin-top: 47px;
        width: 662px;
+       margin-left: 30px;
      }
     
      .kto li{
@@ -1069,7 +1446,7 @@
        width: 100%;
        margin-top: 47px;
        background-color: #EFEFEF;
-       height: 780px;
+   
        padding: 121px;
      }
     
@@ -1122,7 +1499,7 @@
        padding: 180px 121px;
        background-color:#9DC9C8;
        width: 100%;
-       height: 780;
+   
     
       }
     
@@ -1171,12 +1548,9 @@
       .footer{
        width: 100%;
        background-color: #000000;
-       height: 390px;
+   
         padding: 38px;
-       position: static;
-       left: 0;
-       bottom: 0;
-       right: 0; 
+      
       }
 
       .gridend{
@@ -1212,13 +1586,7 @@
         .sondiv1{
           margin-left: -100px;
         }
- 
-        /* .gridend{
-          display: grid;
-          grid-template-columns: auto auto;
-          justify-content: space-between;
-        } */
- 
+
         .theend{
           width: 100%;
           margin-top: 229px;
